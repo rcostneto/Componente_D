@@ -1,4 +1,4 @@
-# Minha API COMPONETE_A
+# Minha API COMPONETE_D
 
 Este projeto foi pensado em atender a demanda de uma *Oficina_de_Peças* **VS Veiculos**, onde se realiza concerto e manutenção de veículos,
 Componente_A(API principal) recebe dados de veículo do Componente_B(API externa) e peças do Componente_C(API externa).
