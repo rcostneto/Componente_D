@@ -74,9 +74,7 @@ Para executar o container basta executar, **como administrador**, expecificando 
 $ docker run -d -p 7000:7000 --name peca-usuario --network oficina -v /c/Users/RCNeto/Desktop/Componente_D-main/database:/app/database rest-d
 
 >>>obs: O caminho da linha 74, foi configurado para o Desktop da minha maquina, nesse caso sera necessario alterar o esse caminho(/c/Users/RCNeto/Desktop/Componente_D-main/database) bastando clicar com o botao direito do mouse na pasta database do projeto e copiar o
-caminho ou copy path e substituir na respectiva linha.
-Logo em seguida voce deve adicionar 12 usuarios, na precisa preencher os campos, basta clicar em "Try in Out" e em executar 12 vezes. Esses dados
-irao para a API principal Componente_A quando fizer a chamada de por la.
+caminho ou copy path e substituir na respectiva linha. Esses dados irao para a API principal Componente_A quando fizer a chamada de por la.
 ```
 ---
 ### Alguns comandos úteis do Docker
