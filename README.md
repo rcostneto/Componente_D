@@ -71,8 +71,12 @@ $ docker build -t rest-d .
 Para executar o container basta executar, **como administrador**, expecificando o nome e a rede.
 
 ```
-$ docker run -d -p 7000:7000 --name peca-usuario --network oficina -v /c/Users/RCNeto/Desktop/mvp_desenvolvimento_backend_avancado/rest_api_topcar_d/database:/app/database rest-d
->>>obs: o comando anterior se refere ao mapeamento com o docker da pasta database que esta na maquina local(area de trabalho), para que a imagem que esta no docker com o banco db.sqlite3 consiga atualizar o mesmo banco na maquina local.
+$ docker run -d -p 7000:7000 --name peca-usuario --network oficina -v /c/Users/RCNeto/Desktop/Componente_D-main/database:/app/database rest-d
+
+>>>obs: O caminho da linha 74, foi configurado para o Desktop da minha maquina, nesse caso sera necessario alterar o esse caminho(/c/Users/RCNeto/Desktop/Componente_D-main/database) bastando clicar com o botao direito do mouse na pasta database do projeto e copiar o
+caminho ou copy path e substituir na respectiva linha.
+Logo em seguida voce deve adicionar 12 usuarios, na precisa preencher os campos, basta clicar em "Try in Out" e em executar 12 vezes. Esses dados
+irao para a API principal Componente_A quando fizer a chamada de por la.
 ```
 ---
 ### Alguns comandos úteis do Docker
